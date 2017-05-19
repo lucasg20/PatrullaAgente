@@ -19,6 +19,7 @@ public class AvanzarEsquina_n extends SearchAction {
         // TODO: Use this conditions
         // PreConditions: null
         // PostConditions: null
+        System.out.println ("El precio es de " + precio + " euros");
         
         return null;
     }

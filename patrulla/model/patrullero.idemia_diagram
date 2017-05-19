@@ -214,15 +214,4 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__ofIcCeoEeeBb_LOzDpCSg" id="(0.5,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__ofIcSeoEeeBb_LOzDpCSg" id="(0.5,1.0)"/>
   </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_1g1x8DtPEeeVcMbCM5Tnlg" type="4001" source="__kR94CeoEeeBb_LOzDpCSg" target="__kTMAyeoEeeBb_LOzDpCSg">
-    <children xmi:type="notation:DecorationNode" xmi:id="_1g1x9DtPEeeVcMbCM5Tnlg" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_1g1x9TtPEeeVcMbCM5Tnlg" x="-1" y="-15"/>
-    </children>
-    <styles xmi:type="notation:RoutingStyle" xmi:id="_1g1x8TtPEeeVcMbCM5Tnlg" routing="Rectilinear"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_1g1x8jtPEeeVcMbCM5Tnlg" fontName="Segoe UI"/>
-    <element xmi:type="idemia:Action" href="patrullero.idemia#//@Actions.1"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1g1x8ztPEeeVcMbCM5Tnlg" points="[1, -26, -434, -27]$[555, -26, 120, -27]$[555, -1, 120, -2]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1g1x9jtPEeeVcMbCM5Tnlg" id="(0.995850622406639,0.13897280966767372)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1g1x9ztPEeeVcMbCM5Tnlg" id="(0.0,0.007380073800738007)"/>
-  </edges>
 </notation:Diagram>

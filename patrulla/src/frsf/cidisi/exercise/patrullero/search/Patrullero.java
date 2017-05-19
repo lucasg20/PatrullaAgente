@@ -1,7 +1,6 @@
 package frsf.cidisi.exercise.patrullero.search;
 
-import frsf.cidisi.exercise.patrullero.search.actions.Avanzar;
-import frsf.cidisi.exercise.patrullero.search.actions.Doblar;
+import frsf.cidisi.exercise.patrullero.search.actions.AvanzarEsquina_n;
 
 import frsf.cidisi.faia.agent.Perception;
 import frsf.cidisi.faia.agent.search.Problem;
@@ -26,8 +25,7 @@ public class Patrullero extends SearchBasedAgent {
 
         // Create the operators
         Vector<SearchAction> operators = new Vector<SearchAction>();
-        operators.addElement(new Avanzar());	
-        operators.addElement(new Doblar());	
+        operators.addElement(new AvanzarEsquina_n());	
 
         // Create the Problem which the agent will resolve
         Problem problem = new Problem(agGoal, agState, operators);

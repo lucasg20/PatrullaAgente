@@ -10,11 +10,11 @@ public class EstadoAgente extends SearchBasedAgentState {
 	
 	//TODO: Setup Variables
     //private Other PosPatrullero;
-    //private Other PosIncidente;
     //private Other EsquinaIntersecciones;
     //private Other GrafoCamino;
     //private Other DestPosibles;
     //private Other CortesParciales;
+    private int EsquinasRecorridas;
 	
 
     public EstadoAgente() {
@@ -22,11 +22,11 @@ public class EstadoAgente extends SearchBasedAgentState {
     	//TODO: Complete Method
     	/*
 			// PosPatrullero = initData0;
-			// PosIncidente = initData1;
-			// EsquinaIntersecciones = initData2;
-			// GrafoCamino = initData3;
-			// DestPosibles = initData4;
-			// CortesParciales = initData5;
+			// EsquinaIntersecciones = initData1;
+			// GrafoCamino = initData2;
+			// DestPosibles = initData3;
+			// CortesParciales = initData4;
+			// EsquinasRecorridas = initData5;
         */
         this.initState();
     }
@@ -96,12 +96,6 @@ public class EstadoAgente extends SearchBasedAgentState {
 //     public void setPosPatrullero(Other arg){
 //        PosPatrullero = arg;
 //     }
-//     public Other getPosIncidente(){
-//        return PosIncidente;
-//     }
-//     public void setPosIncidente(Other arg){
-//        PosIncidente = arg;
-//     }
 //     public Other getEsquinaIntersecciones(){
 //        return EsquinaIntersecciones;
 //     }
@@ -126,6 +120,12 @@ public class EstadoAgente extends SearchBasedAgentState {
 //     public void setCortesParciales(Other arg){
 //        CortesParciales = arg;
 //     }
+     public int getEsquinasRecorridas(){
+        return EsquinasRecorridas;
+     }
+     public void setEsquinasRecorridas(int arg){
+        EsquinasRecorridas = arg;
+     }
 	
 }
 

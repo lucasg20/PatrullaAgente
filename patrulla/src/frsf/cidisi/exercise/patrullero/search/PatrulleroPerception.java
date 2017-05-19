@@ -16,7 +16,6 @@ public class PatrulleroPerception extends Perception {
 	private int congestion;
 	private int eventosocial;
 	private int plandebacheo;
-	private int posgps;
 	
  
 
@@ -85,12 +84,6 @@ public class PatrulleroPerception extends Perception {
      }
      public void setplandebacheo(int arg){
         this.plandebacheo = arg;
-     }
-     public int getposgps(){
-        return posgps;
-     }
-     public void setposgps(int arg){
-        this.posgps = arg;
      }
 	
    
